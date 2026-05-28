@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script> 
+    window.pixelId = "6a17cf309399a3c0f897f84e";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+  <title>30 Dias de Conteúdo + 100 Frases Prontas Para Restaurantes Que Travam na Hora de Postar</title>
+  <meta name="description" content="Kit digital para restaurantes, deliverys e negócios de comida com 30 dias de conteúdo, 100 frases prontas, promoções, mensagens de WhatsApp, checklists, campanhas e skills para divulgar sem começar do zero." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --red:#C0392B;
+      --red2:#E03A22;
+      --cream:#FFF4E6;
+      --cream2:#FFF8EF;
+      --brown:#3B2418;
+      --dark:#120D0A;
+      --gold:#F2B705;
+      --green:#00A85A;
+      --white:#ffffff;
+      --muted:#706057;
+      --card:#fffaf2;
+      --line:rgba(59,36,24,.15);
+      --shadow:0 18px 45px rgba(59,36,24,.18);
+      --shadow-soft:0 12px 28px rgba(59,36,24,.08);
+      --radius:26px;
+      --radius-lg:36px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(242,183,5,.20), transparent 28%),
+        radial-gradient(circle at top left, rgba(192,57,43,.13), transparent 25%),
+        linear-gradient(180deg, #fff8ef 0%, #fff4e6 42%, #ffffff 100%);
+      color:var(--brown);
+      line-height:1.5;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    section{padding:64px 0}
+    .wrap{width:min(1120px,92vw);margin:0 auto}
+    .mono{font-family:"JetBrains Mono", monospace}
+
+    .topbar{
+      position:relative;
+      display:block;
+      overflow:hidden;
+      background:linear-gradient(90deg,#2d1a12,#120b07,#2d1a12);
+      color:#fff;
+      font-weight:900;
+      letter-spacing:.25px;
+      text-align:center;
+      padding:13px 16px;
+      font-size:clamp(12px,2vw,15px);
+      border-bottom:1px solid rgba(242,183,5,.35);
+      box-shadow:0 10px 30px rgba(59,36,24,.20);
+    }
+    .topbar:before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:linear-gradient(110deg, transparent 0%, rgba(255,255,255,.16) 45%, transparent 70%);
+      transform:translateX(-120%);
+      animation:shine 4.2s ease-in-out infinite;
+    }
+    .topbar b{color:var(--gold)}
+    .topbar span{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      margin-left:8px;
+      background:var(--red);
+      color:#fff;
+      border-radius:999px;
+      padding:5px 10px;
+      font-size:12px;
+      font-weight:950;
+      box-shadow:0 8px 20px rgba(192,57,43,.25);
+    }
+
+    .floating-proof{
+      position:fixed;
+      left:18px;
+      bottom:18px;
+      z-index:50;
+      width:min(320px, calc(100vw - 36px));
+      background:rgba(255,250,242,.94);
+      color:var(--brown);
+      border:1px solid rgba(192,57,43,.18);
+      box-shadow:0 18px 42px rgba(59,36,24,.18);
+      border-radius:18px;
+      padding:12px 14px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      backdrop-filter:blur(10px);
+      font-weight:850;
+      font-size:13px;
+    }
+    .floating-proof .dot{
+      width:28px;height:28px;min-width:28px;
+      display:grid;place-items:center;
+      border-radius:50%;
+      background:linear-gradient(145deg,#fff7c2 0%, #f2b705 42%, #c0392b 100%);
+      box-shadow:inset 0 2px 2px rgba(255,255,255,.75), 0 10px 20px rgba(59,36,24,.14);
+    }
+
+    .badge,.eyebrow,.pill,.tag,.result-badge{
+      font-family:"JetBrains Mono", monospace;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.55px;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:9px;
+      background:var(--red);
+      color:#fff;
+      border-radius:999px;
+      padding:10px 15px;
+      font-size:13px;
+      box-shadow:0 10px 24px rgba(192,57,43,.20);
+    }
+    .eyebrow{
+      color:var(--red);
+      margin-bottom:8px;
+      font-size:13px;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      width:max-content;
+      border-radius:999px;
+      background:rgba(192,57,43,.10);
+      color:var(--red);
+      font-size:12px;
+      padding:7px 10px;
+    }
+    .section-title{
+      text-align:center;
+      max-width:850px;
+      margin:0 auto 30px;
+    }
+    h1,h2,h3,p{margin-top:0}
+    h1{
+      font-size:clamp(34px,6.3vw,72px);
+      line-height:.96;
+      letter-spacing:-2.2px;
+      margin:18px 0 16px;
+      text-transform:uppercase;
+    }
+    h2{
+      font-size:clamp(30px,4.6vw,52px);
+      line-height:1.02;
+      letter-spacing:-1.4px;
+      margin-bottom:0;
+    }
+    h3{
+      font-size:24px;
+      line-height:1.14;
+      letter-spacing:-.45px;
+      margin-bottom:10px;
+    }
+    .red{color:var(--red)}
+    .lead,.section-title p{
+      font-size:clamp(17px,2.2vw,22px);
+      color:#3c2a22;
+      font-weight:700;
+      max-width:820px;
+      margin:0 auto;
+    }
+    .muted{color:var(--muted);font-weight:650}
+    .micro-copy{
+      margin:12px 0 0;
+      color:#5f4b42;
+      font-size:13px;
+      font-weight:850;
+    }
+    .hero-proof-strip{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:10px;
+      margin-top:20px;
+    }
+    .hero-proof-strip div{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:12px;
+      box-shadow:0 8px 18px rgba(59,36,24,.06);
+      font-weight:850;
+      font-size:13px;
+    }
+    .hero-proof-strip b{
+      display:block;
+      color:var(--red);
+      font-size:18px;
+      line-height:1.1;
+    }
+    .mobile-sticky-cta{display:none}
+
+    .btn{
+      position:relative;
+      overflow:hidden;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      min-height:58px;
+      padding:16px 24px;
+      border-radius:999px;
+      border:0;
+      cursor:pointer;
+      font-weight:950;
+      text-transform:uppercase;
+      letter-spacing:.25px;
+      text-align:center;
+      box-shadow:0 14px 30px rgba(192,57,43,.22);
+      transition:transform .2s ease, box-shadow .2s ease, filter .2s ease;
+    }
+    .btn:before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:linear-gradient(110deg, transparent 0%, rgba(255,255,255,.24) 45%, transparent 70%);
+      transform:translateX(-130%);
+      transition:transform .6s ease;
+    }
+    .btn:hover{transform:translateY(-3px);filter:saturate(1.08)}
+    .btn:hover:before{transform:translateX(130%)}
+    .btn-primary{background:linear-gradient(90deg,var(--red),var(--red2));color:#fff}
+    .btn-gold{background:linear-gradient(90deg,var(--red),var(--red2),var(--gold));color:#fff}
+    .btn-dark{background:var(--brown);color:#fff;box-shadow:0 14px 30px rgba(59,36,24,.18)}
+    .btn-outline{background:#fff;color:var(--brown);border:1px solid rgba(59,36,24,.18);box-shadow:var(--shadow-soft)}
+    .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+
+    .check,.icon,.num{
+      width:26px;height:26px;min-width:26px;
+      border-radius:50%;
+      display:inline-grid;
+      place-items:center;
+      background:linear-gradient(145deg,#fff7c2 0%, #f2b705 42%, #c0392b 100%);
+      color:#2b170f;
+      font-size:14px;
+      font-weight:950;
+      box-shadow:inset 0 2px 2px rgba(255,255,255,.75), inset 0 -4px 6px rgba(59,36,24,.18), 0 10px 20px rgba(59,36,24,.13);
+    }
+
+    .hero{
+      padding:48px 0 44px;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.06fr .94fr;
+      gap:34px;
+      align-items:center;
+    }
+    .hero ul,.clean-list{
+      margin:22px 0 0;
+      padding:0;
+      list-style:none;
+      display:grid;
+      gap:12px;
+    }
+    .hero li,.clean-list li{
+      display:flex;
+      align-items:flex-start;
+      gap:10px;
+      font-weight:750;
+      color:#2e211b;
+    }
+    .hero-card{
+      position:relative;
+      background:linear-gradient(145deg,#2a1710,#080504 72%);
+      border:1px solid rgba(242,183,5,.35);
+      border-radius:34px;
+      padding:22px;
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .hero-card:before{
+      content:"";
+      position:absolute;inset:-30%;
+      background:radial-gradient(circle,rgba(242,183,5,.24),transparent 45%);
+      transform:translate(20%,-10%);
+    }
+    .mock{
+      position:relative;
+      background:#fff;
+      border-radius:26px;
+      padding:14px;
+      transform:rotate(-2deg);
+      box-shadow:0 22px 55px rgba(0,0,0,.34);
+    }
+    .mock img{border-radius:18px;background:#fffaf2}
+    .hero-mini{
+      position:relative;
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:12px;
+      margin-top:18px;
+    }
+    .hero-mini div{
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(255,255,255,.08);
+      color:#fff;
+      border-radius:18px;
+      padding:14px;
+      text-align:center;
+      backdrop-filter:blur(8px);
+      font-weight:800;
+    }
+    .hero-mini b{display:block;color:var(--gold);font-size:22px;line-height:1.1}
+    .trust-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:20px;
+      color:#483229;
+      font-weight:850;
+      font-size:14px;
+    }
+    .trust-row span{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:8px 11px;
+      box-shadow:0 8px 18px rgba(59,36,24,.06);
+    }
+
+    .video-frame{
+      position:relative;
+      width:100%;
+      max-width:820px;
+      margin:0 auto;
+      border-radius:28px;
+      overflow:hidden;
+      box-shadow:0 24px 60px rgba(59,36,24,.25);
+      border:2px solid rgba(242,183,5,.30);
+      background:#000;
+      aspect-ratio:16/9;
+    }
+    .video-frame iframe,.vertical-video-frame iframe{
+      position:absolute;inset:0;width:100%;height:100%;border:0;
+    }
+
+    .pain-box{
+      background:#fff;
+      border:1px solid rgba(192,57,43,.14);
+      border-radius:var(--radius-lg);
+      padding:34px;
+      box-shadow:var(--shadow-soft);
+    }
+    blockquote{
+      margin:0 0 22px;
+      border-left:5px solid var(--red);
+      background:linear-gradient(90deg,rgba(192,57,43,.08),rgba(242,183,5,.10));
+      border-radius:20px;
+      padding:22px;
+      font-size:clamp(18px,2.2vw,23px);
+      font-weight:850;
+      color:#2c1c15;
+    }
+    .pain-grid,.pedido-grid,.stack-grid,.application-grid,.access-row,.proof-grid{
+      display:grid;
+      gap:16px;
+    }
+    .pain-grid{grid-template-columns:repeat(3,1fr);margin:24px 0}
+    .pain-card,.pedido-card,.stack-card,.application-card,.access-card,.proof-mini,.item-card,.step,.bonus,.price-card,details{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:20px;
+      box-shadow:var(--shadow-soft);
+      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    .pain-card:hover,.pedido-card:hover,.stack-card:hover,.application-card:hover,.access-card:hover,.proof-mini:hover,.item-card:hover,.step:hover,.bonus:hover,details:hover{
+      transform:translateY(-5px);
+      box-shadow:0 20px 42px rgba(59,36,24,.12);
+      border-color:rgba(192,57,43,.28);
+    }
+    .pain-card strong{display:block;font-size:19px;margin:9px 0 6px;color:#2d1c14}
+    .pain-card p,.pedido-card p,.stack-card p,.application-card p,.access-card p,.item-card p,.step p,.bonus p{margin:0;color:var(--muted);font-weight:650}
+    .consequence{
+      margin:22px 0 0;
+      padding:20px;
+      border-radius:22px;
+      background:#1b0f0a;
+      color:#fff;
+      font-weight:750;
+      box-shadow:0 18px 36px rgba(59,36,24,.18);
+    }
+    .consequence b{color:var(--gold)}
+
+    .dark-band{
+      background:
+        radial-gradient(circle at top left, rgba(192,57,43,.32), transparent 34%),
+        linear-gradient(135deg,#180d08,#060403 72%);
+      color:#fff;
+      border-radius:40px;
+      padding:40px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+    .dark-band h2,.dark-band h3{color:#fff}
+    .dark-band .section-title p,.dark-band p{color:rgba(255,255,255,.76)}
+    .pedido-grid{grid-template-columns:repeat(3,1fr);margin-top:28px}
+    .pedido-card{
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.14);
+      color:#fff;
+    }
+    .pedido-letter{
+      width:48px;height:48px;border-radius:18px;
+      display:grid;place-items:center;
+      background:linear-gradient(145deg,#fff7c2,#f2b705 48%,#c0392b);
+      color:#2b170f;
+      font-size:26px;
+      font-weight:950;
+      margin-bottom:12px;
+      box-shadow:0 14px 26px rgba(0,0,0,.16);
+    }
+    .pedido-card p{color:rgba(255,255,255,.75)}
+
+    .authority-box{
+      display:grid;
+      grid-template-columns:260px 1fr;
+      gap:26px;
+      align-items:start;
+      background:linear-gradient(135deg,#fff,#fff7ec);
+      border:1px solid rgba(192,57,43,.14);
+      border-radius:var(--radius-lg);
+      padding:30px;
+      box-shadow:var(--shadow-soft);
+    }
+    .founder-card{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+      gap:14px;
+    }
+    .founder-avatar{
+      width:140px;height:140px;
+      border-radius:50%;
+      border:4px solid var(--gold);
+      background:linear-gradient(145deg,#3b2418,#120d0a 72%);
+      display:grid;
+      place-items:center;
+      box-shadow:0 22px 48px rgba(59,36,24,.22);
+      overflow:hidden;
+    }
+    .founder-initials{
+      font-size:44px;
+      font-weight:950;
+      color:var(--gold);
+      font-family:"JetBrains Mono",monospace;
+    }
+    .founder-avatar img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:center;
+      display:block;
+    }
+    .founder-name b{display:block;font-size:20px;color:#2d1a12}
+    .founder-name span{display:block;color:var(--muted);font-size:13px;font-weight:800;margin-top:4px}
+    .founder-stat{
+      background:rgba(192,57,43,.10);
+      color:var(--red);
+      font-weight:950;
+      font-size:12px;
+      padding:8px 12px;
+      border-radius:999px;
+      font-family:"JetBrains Mono",monospace;
+      text-transform:uppercase;
+    }
+
+    .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .item-card{display:flex;flex-direction:column;gap:13px;background:#fff}
+    .item-card img{
+      width:100%;
+      height:auto;
+      max-height:350px;
+      border-radius:20px;
+      object-fit:contain;
+      background:#fffaf2;
+      border:1px solid rgba(59,36,24,.08);
+    }
+    .item-card h3{font-size:21px;margin:0}
+
+    .complete-kit{
+      margin-top:28px;
+      background:linear-gradient(135deg,#1b0f0a,#0c0705);
+      color:#fff;
+      border-radius:34px;
+      padding:28px;
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      position:relative;
+    }
+    .complete-kit:before{
+      content:"";
+      position:absolute;
+      inset:-35%;
+      background:radial-gradient(circle at top right, rgba(242,183,5,.18), transparent 34%);
+      pointer-events:none;
+    }
+    .complete-kit > *{position:relative}
+    .complete-kit h3{color:#fff;margin-bottom:8px}
+    .complete-kit p{color:rgba(255,255,255,.72);font-weight:700;margin-bottom:18px}
+    .complete-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:12px;
+    }
+    .complete-item{
+      display:flex;
+      align-items:flex-start;
+      gap:9px;
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.13);
+      border-radius:16px;
+      padding:11px 12px;
+      font-weight:800;
+      color:#fff;
+    }
+    .complete-item span:first-child{color:var(--gold);font-weight:950}
+
+    .skill-video-box{
+      display:grid;
+      grid-template-columns:1fr minmax(280px,380px);
+      gap:28px;
+      align-items:center;
+      background:
+        radial-gradient(circle at top right, rgba(242,183,5,.18), transparent 32%),
+        radial-gradient(circle at bottom left, rgba(192,57,43,.12), transparent 28%),
+        linear-gradient(135deg,#ffffff 0%, #fff7ec 100%);
+      border:1px solid rgba(192,57,43,.16);
+      border-radius:36px;
+      padding:32px;
+      box-shadow:0 18px 45px rgba(59,36,24,.12);
+      overflow:hidden;
+    }
+    .vertical-video-frame{
+      width:100%;
+      max-width:360px;
+      margin:0 auto;
+      aspect-ratio:337/599;
+      position:relative;
+      border-radius:28px;
+      overflow:hidden;
+      background:#000;
+      border:2px solid rgba(242,183,5,.38);
+      box-shadow:0 24px 58px rgba(59,36,24,.24);
+    }
+
+    .stack-grid{grid-template-columns:repeat(3,1fr);margin-top:24px}
+    .stack-card{
+      position:relative;
+      overflow:hidden;
+      background:linear-gradient(180deg,#fff,#fff7ec);
+      padding-top:28px;
+    }
+    .stack-card:before{
+      content:"";position:absolute;left:18px;right:18px;top:0;height:6px;border-radius:0 0 999px 999px;background:linear-gradient(90deg,var(--red),var(--red2),var(--gold));
+    }
+    .stack-card b{display:block;color:var(--red);font-size:22px;line-height:1.1;margin-bottom:8px}
+    .stack-card span{
+      display:inline-flex;
+      margin-bottom:12px;
+      background:rgba(242,183,5,.18);
+      color:var(--brown);
+      font-weight:950;
+      padding:6px 10px;
+      border-radius:999px;
+      font-size:13px;
+      text-transform:uppercase;
+    }
+    .value-total{
+      margin-top:24px;
+      background:#1b0f0a;
+      color:#fff;
+      border-radius:28px;
+      padding:26px;
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:18px;
+      align-items:center;
+      box-shadow:var(--shadow);
+    }
+    .value-total p{margin:0;color:rgba(255,255,255,.78);font-weight:700}
+    .value-price{text-align:right}
+    .value-price del{display:block;color:rgba(255,255,255,.55);font-size:22px;font-weight:850}
+    .value-price strong{display:block;color:var(--gold);font-size:clamp(36px,5vw,56px);line-height:1;font-weight:950}
+    .value-price small{display:block;color:rgba(255,255,255,.75);font-weight:800;margin-top:6px}
+
+    .guarantee-box{
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:24px;
+      align-items:center;
+      background:
+        radial-gradient(circle at top right, rgba(242,183,5,.22), transparent 26%),
+        linear-gradient(135deg,#fff,#fff7ec);
+      border:2px solid rgba(242,183,5,.42);
+      border-radius:34px;
+      padding:30px;
+      box-shadow:var(--shadow);
+    }
+    .guarantee-seal{
+      width:128px;height:128px;
+      display:grid;place-items:center;
+      border-radius:50%;
+      background:linear-gradient(135deg,var(--red),var(--red2));
+      color:#fff;
+      text-align:center;
+      font-weight:950;
+      line-height:1.05;
+      box-shadow:0 18px 38px rgba(192,57,43,.26);
+      animation:slowRotate 14s linear infinite;
+    }
+    .guarantee-seal span{font-size:15px;display:block}
+    .guarantee-box p{margin:0;color:var(--muted);font-weight:700}
+
+    .pricing{display:grid;grid-template-columns:1fr 1.12fr;gap:22px;align-items:start}
+    .price-card{
+      background:#fff;
+      border:2px solid rgba(59,36,24,.08);
+      border-radius:32px;
+      padding:28px;
+      box-shadow:var(--shadow);
+      position:relative;
+      overflow:hidden;
+      scroll-margin-top:90px;
+    }
+    .price-card.featured{
+      border-color:var(--red);
+      background:
+        radial-gradient(circle at top right, rgba(242,183,5,.18), transparent 30%),
+        linear-gradient(180deg,#ffffff 0%, #fff7ec 100%);
+      transform:scale(1.015);
+    }
+    .tag{
+      display:inline-flex;
+      background:linear-gradient(90deg,var(--red),var(--red2));
+      color:#fff;
+      border-radius:999px;
+      padding:8px 12px;
+      font-size:12px;
+      margin-bottom:12px;
+    }
+    .price{font-size:58px;line-height:1;margin:16px 0;color:var(--red);font-weight:950;letter-spacing:-2px}
+    .price small{font-size:20px;color:var(--brown);letter-spacing:0}
+    .price-card ul{list-style:none;padding:0;margin:20px 0;display:grid;gap:10px}
+    .price-card li{display:flex;gap:9px;font-weight:750;align-items:flex-start}
+    .price-card .btn{width:100%;margin-top:6px}
+    .secure-copy{text-align:center;margin:12px 0 0;color:var(--muted);font-size:13px;font-weight:800}
+    .card2-lista-completa li{
+      background:rgba(255,244,230,.62);
+      border:1px solid rgba(192,57,43,.10);
+      border-radius:15px;
+      padding:8px 10px;
+    }
+
+    .application-grid{grid-template-columns:repeat(4,1fr)}
+    .application-card{background:#fff;text-align:left}
+    .application-card strong{display:block;font-size:20px;margin-bottom:7px;color:#291912}
+    .result-badge{
+      display:inline-flex;
+      width:max-content;
+      margin-top:12px;
+      border-radius:999px;
+      padding:7px 10px;
+      background:rgba(0,168,90,.10);
+      color:#087443;
+      font-size:11px;
+    }
+
+    .faq{display:grid;gap:14px;max-width:920px;margin:0 auto}
+    details{background:#fff;padding:18px 20px}
+    summary{font-weight:950;cursor:pointer;font-size:18px;list-style:none}
+    summary::-webkit-details-marker{display:none}
+    details p{color:var(--muted);font-weight:650;margin:10px 0 0}
+
+    .final-cta{
+      background:
+        radial-gradient(circle at top left, rgba(242,183,5,.24), transparent 32%),
+        linear-gradient(135deg,#180d08,#060403 72%);
+      color:#fff;
+      border-radius:40px;
+      padding:44px;
+      text-align:center;
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .final-cta h2{color:#fff;margin-bottom:14px}
+    .final-cta p{max-width:760px;margin:0 auto 22px;color:rgba(255,255,255,.78);font-size:18px;font-weight:700}
+    .final-checklist{
+      width:min(720px,100%);
+      margin:0 auto 24px;
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:10px;
+      text-align:left;
+    }
+    .final-checklist div{
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:16px;
+      padding:10px 12px;
+      font-weight:800;
+    }
+
+    footer{
+      background:#0c0705;
+      color:rgba(255,255,255,.72);
+      padding:30px 0 86px;
+      font-size:13px;
+      text-align:center;
+    }
+    footer p{margin:8px 0}
+    footer a{color:var(--gold);font-weight:900;text-decoration:underline;text-underline-offset:3px}
+
+    .urgency-emotional{
+      margin-top:32px;
+      background:linear-gradient(135deg,#1b0f0a,#0c0705);
+      border-radius:28px;
+      padding:28px 30px;
+      box-shadow:var(--shadow);
+    }
+    .urgency-inner{
+      display:flex;
+      align-items:flex-start;
+      gap:20px;
+    }
+    .urgency-icon{
+      font-size:36px;
+      flex-shrink:0;
+      margin-top:4px;
+    }
+    .urgency-emotional h3{
+      color:#fff;
+      margin-bottom:10px;
+      font-size:22px;
+    }
+    .urgency-emotional p{
+      color:rgba(255,255,255,.75);
+      font-weight:700;
+      margin:0;
+    }
+
+    .final-price-display{
+      margin:18px auto 20px;
+    }
+    .final-price-display del{
+      display:block;
+      color:rgba(255,255,255,.45);
+      font-size:20px;
+      font-weight:850;
+      margin-bottom:2px;
+    }
+    .final-price-display strong{
+      display:block;
+      color:var(--gold);
+      font-size:clamp(48px,6vw,72px);
+      line-height:1;
+      font-weight:950;
+      letter-spacing:-2px;
+    }
+    .final-price-display small{
+      display:block;
+      color:rgba(255,255,255,.55);
+      font-weight:800;
+      font-size:13px;
+      margin-top:4px;
+    }
+    .final-btn{
+      font-size:clamp(15px,2vw,18px) !important;
+      padding:20px 36px !important;
+      min-height:68px !important;
+    }
+
+    @keyframes shine{0%,58%{transform:translateX(-120%)}76%,100%{transform:translateX(120%)}}
+    @keyframes slowRotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+    @media (prefers-reduced-motion:reduce){
+      *{animation:none!important;scroll-behavior:auto!important;transition:none!important}
+    }
+    @media (max-width:980px){
+      section{padding:52px 0}
+      .hero-grid,.authority-box,.value-total,.guarantee-box,.pricing,.skill-video-box{grid-template-columns:1fr}
+      .grid-4,.pain-grid,.application-grid,.complete-grid{grid-template-columns:repeat(2,1fr)}
+      .pedido-grid,.stack-grid{grid-template-columns:1fr 1fr}
+      .value-price{text-align:left}
+      .price-card.featured{transform:none}
+      .guarantee-seal{margin:0 auto}
+      .guarantee-box{text-align:center}
+      .skill-video-box{text-align:center}
+      .skill-video-box .clean-list{text-align:left;max-width:620px;margin-left:auto;margin-right:auto}
+      .urgency-inner{flex-direction:column}
+    }
+    @media (max-width:620px){
+      section{padding:44px 0}
+      .topbar span{display:none}
+      .floating-proof{display:none}
+      .mobile-sticky-cta{
+        position:fixed;
+        left:12px;
+        right:12px;
+        bottom:12px;
+        z-index:80;
+        min-height:56px;
+        border-radius:999px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:linear-gradient(90deg,var(--red),var(--red2),var(--gold));
+        color:#fff;
+        font-weight:950;
+        text-transform:uppercase;
+        letter-spacing:.2px;
+        box-shadow:0 16px 34px rgba(59,36,24,.24);
+      }
+      h1{font-size:clamp(30px,10vw,43px);line-height:1.02;letter-spacing:-1.15px;margin-top:16px}
+      .lead{font-size:16px;line-height:1.48}
+      .hero{padding:34px 0 28px}
+      .hero-proof-strip{grid-template-columns:1fr;gap:8px}
+      .cta-row{display:grid}
+      .btn{width:100%;padding-left:18px;padding-right:18px;font-size:14px}
+      .hero-mini,.grid-4,.pain-grid,.pedido-grid,.stack-grid,.application-grid,.complete-grid,.final-checklist{grid-template-columns:1fr}
+      .pain-box,.dark-band,.authority-box,.skill-video-box,.complete-kit,.guarantee-box,.final-cta{padding:24px;border-radius:28px}
+      .mock{transform:none}
+      .brand-card{min-height:210px}
+      footer{padding-bottom:96px}
+    }
+  </style>
+</head>
+<body>
+  <a aria-label="Ir para a oferta" class="topbar" href="#planos">⚡ Acesso antecipado ativo — campanha de validação do kit gastronômico <span>QUERO VER OFERTA ↓</span></a>
+
+  <div class="floating-proof" aria-live="polite">
+    <span class="dot">✓</span>
+    <span id="proofText">Acesso digital liberado após a confirmação da compra.</span>
+  </div>
+
+  <a class="mobile-sticky-cta" href="#planos">QUERO GARANTIR MEU ACESSO 🔒</a>
+
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="badge">🍽️ Kit digital para negócios de comida</div>
+        <h1><span class="red">30 dias de conteúdo</span> + 100 frases prontas para restaurantes que travam na hora de postar.</h1>
+        <p class="lead">Abra o kit, escolha uma ideia, adapte ao seu cardápio e publique no mesmo dia — com textos, promoções, WhatsApp, CTAs e skills para divulgar sem contratar social media.</p>
+        <div class="trust-row">
+          <span>🍽️ Feito para negócios de comida</span>
+          <span>⚡ Acesso imediato</span>
+          <span>✅ Garantia de 15 dias</span>
+        </div>
+        <ul>
+          <li><span class="check">✓</span><span>Calendário de 30 dias para parar de improvisar e manter presença todos os dias.</span></li>
+          <li><span class="check">✓</span><span>100 frases, promoções, combos e mensagens prontas para Instagram, Stories e WhatsApp.</span></li>
+          <li><span class="check">✓</span><span>Skills para criar textos, direções visuais e ideias de conteúdo com mais rapidez.</span></li>
+        </ul>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#planos">QUERO DESTRAVAR MEU CONTEÚDO</a>
+          <a class="btn btn-outline" href="#vsl">QUERO VER COMO FUNCIONA</a>
+        </div>
+        <p class="micro-copy">Sem mensalidade · Acesso digital imediato · Reembolso simples em até 15 dias</p>
+        <div class="hero-proof-strip" aria-label="Resumo do que vem no kit">
+          <div><b>30 dias</b> de ideias para Feed, Stories, Reels e WhatsApp</div>
+          <div><b>100+</b> frases e legendas prontas para vender comida</div>
+          <div><b>15 min/dia</b> para aplicar sem virar especialista em marketing</div>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Prévia do kit digital">
+        <div class="mock">
+          <img alt="Prévia do Calendário 30 Dias de Conteúdo Para Restaurantes" src="https://i.postimg.cc/byS2wkVS/Markup-30-Dias.png" />
+        </div>
+        <div class="hero-mini">
+          <div><b>30 dias</b>de ideias prontas</div>
+          <div><b>100+</b>frases e legendas</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="vsl" style="padding-top:24px">
+    <div class="wrap">
+      <div class="section-title">
+        <div class="eyebrow">Assista antes de decidir</div>
+        <h2>Veja como o kit ajuda a sair da tela em branco</h2>
+        <p>Em poucos minutos, entenda como usar o material para criar posts, chamadas, ideias visuais e mensagens de venda para a rotina do seu restaurante.</p>
+      </div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/7BdwMDUDiFI?list=PL74B39GU2VNzR-qc9ZGKYdeRqnW4CLxue" title="Apresentação do Kit Restaurante Que Vende Todo Dia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="dor">
+    <div class="wrap">
+      <div class="section-title">
+        <div class="eyebrow">O problema real</div>
+        <h2>O prato pode ser bom. Mas, se ninguém lembra dele, ele não vira pedido.</h2>
+      </div>
+      <div class="pain-box">
+        <blockquote>É terça-feira, 17h42. O movimento está baixo, o celular está na mão, você sabe que precisa postar alguma coisa... mas só sai mais uma foto do prato com preço. Você publica sem convicção e espera alguém chamar no WhatsApp.</blockquote>
+        <div class="pain-grid">
+          <div class="pain-card"><span class="icon">😵</span><strong>Tela em branco</strong><p>Você perde tempo pensando no que postar e acaba deixando para depois.</p></div>
+          <div class="pain-card"><span class="icon">🍔</span><strong>Post sem desejo</strong><p>A comida aparece, mas a legenda não desperta vontade de pedir agora.</p></div>
+          <div class="pain-card"><span class="icon">📲</span><strong>WhatsApp frio</strong><p>O cliente pergunta, some e você não tem mensagens prontas para recuperar a venda.</p></div>
+          <div class="pain-card"><span class="icon">📉</span><strong>Rotina sem constância</strong><p>Quando a divulgação falha, o movimento depende só da sorte do dia.</p></div>
+          <div class="pain-card"><span class="icon">😔</span><strong>Sensação de amadorismo</strong><p>Você sabe que seu produto é bom, mas o perfil não transmite isso — e isso pesa.</p></div>
+          <div class="pain-card"><span class="icon">😤</span><strong>Concorrente na frente</strong><p>Você vê outros restaurantes crescendo e sabe que o problema não é o prato — é a presença.</p></div>
+        </div>
+        <p class="muted"><strong>Não é falta de criatividade.</strong> É falta de um sistema simples para transformar pratos, combos, datas e bastidores em conteúdo vendável. Restaurante precisa aparecer com frequência, mas o dono quase nunca tem tempo de virar social media.</p>
+        <div class="consequence">Se nada muda, o custo não é só "ficar sem postar". É perder lembrança na mente do cliente, deixar combos sem divulgação e ver o concorrente ocupar o espaço que poderia ser seu. O cliente que pediu uma vez e não voltou escolheu alguém que aparece com mais frequência. O parceiro que pergunta "por que não cresce?" não vai aceitar "falta de tempo" para sempre. E você mesmo já sabe: todo dia sem presença é uma venda que foi para outro lugar e uma chance a menos de ser o restaurante que as pessoas indicam. <b>Conteúdo parado vira pedido perdido — e pedido perdido vira negócio estagnado.</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="metodo-pedido">
+    <div class="wrap">
+      <div class="dark-band">
+        <div class="section-title" style="margin-bottom:0">
+          <div class="eyebrow">Mecanismo único</div>
+          <h2>Sistema P.E.D.I.D.O. Todo Dia™</h2>
+          <p>Em vez de depender de inspiração, você segue uma sequência pronta para planejar, despertar desejo, divulgar ofertas, incentivar pedidos e organizar a rotina.</p>
+          <p style="color:rgba(255,255,255,.65);font-weight:800;font-size:14px;margin-top:12px">✓ Sistema criado para a rotina real de restaurantes, deliverys e negócios locais de comida.</p>
+        </div>
+        <div class="pedido-grid">
+          <div class="pedido-card"><div class="pedido-letter">P</div><h3>Planejar o mês</h3><p>Use o calendário para saber o que publicar sem improvisar todos os dias.</p></div>
+          <div class="pedido-card"><div class="pedido-letter">E</div><h3>Estimular desejo</h3><p>Transforme pratos em vontade usando frases de sabor, textura e ocasião.</p></div>
+          <div class="pedido-card"><div class="pedido-letter">D</div><h3>Divulgar ofertas</h3><p>Comunique combos, promoções e datas comerciais sem parecer só “post de preço”.</p></div>
+          <div class="pedido-card"><div class="pedido-letter">I</div><h3>Incentivar pedido</h3><p>Use CTAs e mensagens para levar o cliente do interesse ao WhatsApp.</p></div>
+          <div class="pedido-card"><div class="pedido-letter">D</div><h3>Destravar visual</h3><p>Use as skills para criar direções de imagem, textos e artes mais claras.</p></div>
+          <div class="pedido-card"><div class="pedido-letter">O</div><h3>Organizar a rotina</h3><p>Aplique o material em poucos minutos por dia, sem depender de campanha complexa.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="autoridade">
+    <div class="wrap">
+      <div class="authority-box">
+        <div class="founder-card">
+          <div class="founder-avatar" aria-label="Logo da Pulse Agência">
+            <img src="https://i.postimg.cc/Wb0PcWn8/Gemini-Generated-Image-8b5d5f8b5d5f8b5d.png" alt="Logo da Pulse Agência" loading="lazy" />
+          </div>
+          <div class="founder-name">
+            <b>Pulse Agência</b>
+            <span>Desenvolvido pela Pulse Agência — crescimento, conteúdo e conversão para negócios locais.</span>
+          </div>
+          <div class="founder-stat">Agência por trás do sistema P.E.D.I.D.O.</div>
+        </div>
+        <div>
+          <div class="eyebrow">Por trás do kit</div>
+          <h2>Criado por uma agência que transforma conteúdo em presença, desejo e conversão para negócios locais.</h2>
+          <p class="muted">A Pulse Agência trabalha com crescimento, conteúdo e conversão para transformar presença digital em comunicação mais clara, estratégica e aplicável. O Kit Restaurante Que Vende Todo Dia nasceu dessa lógica: pegar a estrutura que uma agência usaria para organizar calendário, chamadas, ofertas, WhatsApp e rotina de publicação — e transformar tudo em um material simples para negócios de comida.</p>
+          <p class="muted">Em vez de depender de inspiração, o dono recebe um sistema prático para saber o que postar, como despertar desejo, como chamar o cliente para o pedido e como manter a divulgação ativa mesmo com pouco tempo. A proposta não é ensinar marketing complexo; é entregar uma rotina pronta para quem precisa vender comida com mais presença.</p>
+          <ul class="clean-list">
+            <li><span class="check">✓</span><span>Estratégia de agência transformada em materiais plug & play para a rotina real de restaurantes e deliverys.</span></li>
+            <li><span class="check">✓</span><span>Conteúdo, ofertas, CTAs e WhatsApp pensados para negócios locais que precisam aparecer e vender com constância.</span></li>
+            <li><span class="check">✓</span><span>Linguagem feita para restaurantes, pizzarias, lanchonetes, cafeterias, confeitarias e outros negócios de comida.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="entregaveis">
+    <div class="wrap">
+      <div class="section-title">
+        <div class="eyebrow">O que você recebe</div>
+        <h2>Materiais digitais para postar, criar imagens, vender no WhatsApp e organizar a rotina</h2>
+        <p>Abra, copie, adapte com o nome do prato, promoção ou negócio e publique no Instagram, Stories, Reels ou WhatsApp.</p>
+      </div>
+      <div class="grid-4">
+        <article class="item-card">
+          <img alt="30 Dias de Conteúdo" src="https://i.postimg.cc/byS2wkVS/Markup-30-Dias.png" />
+          <span class="pill">Planner</span>
+          <h3>30 Dias de Conteúdo</h3>
+          <p>Calendário com ideias prontas para alimentar o Instagram do restaurante durante o mês.</p>
+        </article>
+        <article class="item-card">
+          <img alt="100 Legendas Prontas" src="https://i.postimg.cc/gjd0MXWz/Markup-Desejos-Gastronomicos.png" />
+          <span class="pill">Legendas</span>
+          <h3>100 Legendas Prontas</h3>
+          <p>Legendas para pratos, delivery, combos, pizzas, lanches, cafeterias, bastidores e clientes.</p>
+        </article>
+        <article class="item-card">
+          <img alt="Skill Criar Imagem" src="https://i.postimg.cc/x8YdsJ20/Markup-Criar-Img.png" />
+          <span class="pill">Visual</span>
+          <h3>Skill Criar Imagem</h3>
+          <p>Direção para transformar ideias de conteúdo em imagens com aparência mais profissional.</p>
+        </article>
+        <article class="item-card">
+          <img alt="Skill de Texto" src="https://i.postimg.cc/x8YdsJ2n/markup-Skiltexto.png" />
+          <span class="pill">Texto</span>
+          <h3>Skill Design Textos</h3>
+          <p>Aplicação de textos em peças visuais com hierarquia, contraste, CTA e leitura clara.</p>
+        </article>
+      </div>
+
+      <div class="complete-kit">
+        <h3>O kit completo também libera os materiais que transformam conteúdo em pedido</h3>
+        <p>Essa parte mostra que o produto não é só um calendário: é um pacote de aplicação para conteúdo, oferta, atendimento, WhatsApp e recompra.</p>
+        <div class="complete-grid">
+          <div class="complete-item"><span>✓</span><span>20 Promoções Prontas Para Delivery</span></div>
+          <div class="complete-item"><span>✓</span><span>15 Combos Para Aumentar Ticket Médio</span></div>
+          <div class="complete-item"><span>✓</span><span>30 Ideias de Reels Sem Precisar Aparecer</span></div>
+          <div class="complete-item"><span>✓</span><span>50 Chamadas Para Stories</span></div>
+          <div class="complete-item"><span>✓</span><span>Scripts Para Recuperar Cliente Sumido</span></div>
+          <div class="complete-item"><span>✓</span><span>Sequência de Pós-venda e Recompra</span></div>
+          <div class="complete-item"><span>✓</span><span>Cardápio Magnético</span></div>
+          <div class="complete-item"><span>✓</span><span>Banco de CTAs Para Pedidos</span></div>
+          <div class="complete-item"><span>✓</span><span>Checklist Perfil Vendedor no Instagram</span></div>
+          <div class="complete-item"><span>✓</span><span>Checklist WhatsApp Que Converte</span></div>
+          <div class="complete-item"><span>✓</span><span>Modelos de Bio Para Restaurantes</span></div>
+          <div class="complete-item"><span>✓</span><span>Campanha 7 Dias Para Delivery</span></div>
+          <div class="complete-item"><span>✓</span><span>Datas Gastronômicas e Comerciais</span></div>
+          <div class="complete-item"><span>✓</span><span>Ofertas Relâmpago Para WhatsApp e Stories</span></div>
+          <div class="complete-item"><span>✓</span><span>Manual 15 Minutos Por Dia</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video-skills">
+    <div class="wrap">
+      <div class="skill-video-box">
+        <div>
+          <div class="eyebrow">Veja as skills em ação</div>
+          <h2>Transforme o ChatGPT em apoio de conteúdo para o seu restaurante</h2>
+          <p class="muted">As skills ajudam você a gerar ideias, chamadas, prompts visuais, textos para artes e mensagens comerciais com mais direção.</p>
+          <ul class="clean-list">
+            <li><span class="check">✓</span><span>Use instruções prontas para gerar conteúdo mais rápido.</span></li>
+            <li><span class="check">✓</span><span>Adapte as respostas para pratos, combos, delivery, WhatsApp e Instagram.</span></li>
+            <li><span class="check">✓</span><span>Combine com o calendário, as legendas e os bônus do kit completo.</span></li>
+          </ul>
+          <div class="cta-row"><a class="btn btn-primary" href="#planos">QUERO USAR AS SKILLS</a></div>
+        </div>
+        <div class="vertical-video-frame">
+          <iframe src="https://www.youtube.com/embed/Onw0r76tHDk" title="Como usar as skills do kit gastronômico" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack-valor">
+    <div class="wrap">
+      <div class="section-title">
+        <div class="eyebrow">Empilhamento de valor</div>
+        <h2>Ao final dos próximos dias, você não terá só posts. Terá uma rotina pronta de conteúdo e pedidos.</h2>
+        <p>No kit completo, os materiais foram organizados para cobrir conteúdo, desejo, WhatsApp, promoções, ofertas e recompra.</p>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-card"><span>Valor: R$47</span><b>Calendário 30 Dias</b><p>Ideias para Feed, Stories, Reels, delivery, combos, bastidores e datas.</p></div>
+        <div class="stack-card"><span>Valor: R$37</span><b>100 Legendas Prontas</b><p>Textos prontos para pratos, ofertas, rotina e relacionamento com clientes.</p></div>
+        <div class="stack-card"><span>Valor: R$27</span><b>Mensagens WhatsApp Delivery</b><p>Respostas e chamadas para atendimento, pedidos, pós-venda e recompra.</p></div>
+        <div class="stack-card"><span>Valor: R$47</span><b>Skills de Texto e Imagem</b><p>Prompts para criar ideias visuais, artes, textos e direção criativa.</p></div>
+        <div class="stack-card"><span>Valor: R$67</span><b>Bônus Comerciais</b><p>Promoções, combos, CTAs, ofertas relâmpago, datas e campanha de 7 dias.</p></div>
+        <div class="stack-card"><span>Valor: R$47</span><b>Checklists e Rotina</b><p>Perfil vendedor, WhatsApp que converte, bio, cardápio magnético e manual 15 minutos.</p></div>
+      </div>
+      <div class="value-total">
+        <div>
+          <h3 style="color:#fff;margin-bottom:8px">Valor percebido do conjunto</h3>
+          <p>Somando os materiais separadamente, o kit reúne calendário, legendas, mensagens, skills, promoções, checklists e campanhas. Antes de ver o preço final, você ainda conta com garantia simples de 15 dias para testar sem risco.</p>
+        </div>
+        <div class="value-price">
+          <del>Materiais separados</del>
+          <strong>R$272</strong>
+          <small>em valor estimado do pacote completo</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="garantia">
+    <div class="wrap">
+      <div class="guarantee-box">
+        <div class="guarantee-seal"><div>15<br/><span>dias de garantia</span></div></div>
+        <div>
+          <div class="eyebrow">Compra segura antes da decisão</div>
+          <h2>Teste o material por 15 dias. Se não funcionar para sua rotina, devolvemos tudo.</h2>
+          <p>Você garante acesso, aplica o kit no seu negócio e vê se a rotina de conteúdo realmente fica mais fácil. Se em 15 dias o material não fizer diferença para o seu restaurante, basta enviar um e-mail para <strong>certoprotocolo@gmail.com</strong> com a palavra REEMBOLSO — sem formulário, sem questionário, sem burocracia. O risco é nosso. O resultado é seu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos">
+    <div class="wrap">
+      <div class="section-title">
+        <div class="eyebrow">Escolha seu acesso</div>
+        <h2>Comece simples ou libere o sistema completo</h2>
+        <p>O kit completo é a melhor escolha para quem quer conteúdo, promoções, WhatsApp, CTAs, checklists e rotina pronta.</p>
+      </div>
+      <div class="pricing">
+        <article class="price-card" id="card-30dias">
+          <h3>Calendário 30 Dias de Conteúdo Para Restaurantes</h3>
+          <p class="muted">Libera somente o calendário individual de 30 dias.</p>
+          <div class="price"><small>R$</small>9,90</div>
+          <ul>
+            <li><span class="check">✓</span><span>Calendário 30 Dias de Conteúdo Para Restaurantes</span></li>
+            <li><span class="check">✓</span><span>Ideias para posts, Stories, Reels e divulgação básica</span></li>
+            <li><span class="check">✓</span><span>Acesso digital imediato</span></li>
+          </ul>
+          <a class="btn btn-dark" href="https://ggcheckout.app/checkout/v3/FteDsjCEixK5u1APWgdr">QUERO SÓ O CALENDÁRIO</a>
+          <p class="secure-copy">Sem mensalidade · Acesso imediato · Garantia de 15 dias</p>
+        </article>
+
+        <article class="price-card featured" id="card-completo">
+          <span class="tag">Mais escolhido</span>
+          <h3>Kit Restaurante Que Vende Todo Dia</h3>
+          <p class="muted">Libera todos os materiais, skills e bônus da oferta em uma única compra.</p>
+          <div class="price"><small>R$</small>29,90</div>
+          <ul class="card2-lista-completa">
+            <li><span class="check">✓</span><span>100 Legendas Prontas</span></li>
+            <li><span class="check">✓</span><span>Calendário 30 Dias</span></li>
+            <li><span class="check">✓</span><span>Mensagens Prontas WhatsApp Delivery</span></li>
+            <li><span class="check">✓</span><span>Skill Design Textos + Skill Criar Imagem</span></li>
+            <li><span class="check">✓</span><span>Criador de Conteúdo para gastronomia</span></li>
+            <li><span class="check">✓</span><span>20 Promoções Prontas Para Delivery</span></li>
+            <li><span class="check">✓</span><span>15 Combos Para Aumentar Ticket Médio</span></li>
+            <li><span class="check">✓</span><span>30 Ideias de Reels Sem Precisar Aparecer</span></li>
+            <li><span class="check">✓</span><span>50 Chamadas Para Stories</span></li>
+            <li><span class="check">✓</span><span>Scripts Para Recuperar Cliente Sumido</span></li>
+            <li><span class="check">✓</span><span>Sequência de Pós-venda e Recompra</span></li>
+            <li><span class="check">✓</span><span>Cardápio Magnético + Banco de CTAs Para Pedidos</span></li>
+            <li><span class="check">✓</span><span>Checklists, modelos de bio, datas comerciais, ofertas relâmpago e Manual 15 Minutos Por Dia</span></li>
+          </ul>
+          <a class="btn btn-gold" href="https://ggcheckout.app/checkout/v3/qTf2sgLjr9EfGuVsvWH6">QUERO GARANTIR KIT COMPLETO AGORA</a>
+          <p class="secure-copy">Sem mensalidade · Acesso imediato · Garantia de 15 dias</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="aplicacao">
+    <div class="wrap">
+      <div class="section-title">
+        <div class="eyebrow">Prova de aplicação</div>
+        <h2>Veja onde o kit entra na rotina do seu negócio</h2>
+        <p>Sem inventar depoimentos: estes são exemplos práticos de uso do material dentro de negócios de comida.</p>
+      </div>
+      <div class="application-grid">
+        <div class="application-card"><strong>Delivery parado no meio da semana</strong><p>Use promoções prontas, combos e chamadas de WhatsApp para movimentar pedidos em dias fracos.</p><span class="result-badge">Aplicação: ofertas e recompra</span></div>
+        <div class="application-card"><strong>Instagram sem constância</strong><p>Use o calendário de 30 dias para alternar pratos, bastidores, provas, datas, Reels e Stories.</p><span class="result-badge">Aplicação: conteúdo diário</span></div>
+        <div class="application-card"><strong>Cliente pergunta e some</strong><p>Use scripts de atendimento, recuperação e pós-venda para continuar a conversa com naturalidade.</p><span class="result-badge">Aplicação: WhatsApp</span></div>
+        <div class="application-card"><strong>Arte sem direção</strong><p>Use as skills para gerar prompt visual, headline, CTA e texto de apoio antes de montar a peça.</p><span class="result-badge">Aplicação: imagem e copy</span></div>
+      </div>
+      <!-- Urgência emocional após aplicação -->
+      <div class="urgency-emotional">
+        <div class="urgency-inner">
+          <div class="urgency-icon">⏳</div>
+          <div>
+            <h3>Cada semana sem sistema é uma semana que o concorrente cresce no lugar do seu negócio.</h3>
+            <p>O cliente que viu o perfil parado não vai esperar. Ele pediu no restaurante que apareceu. O próximo post que você não publicou foi uma oportunidade que não volta. O kit está pronto — a decisão é só sua.</p>
+            <a class="btn btn-gold" href="#planos" style="margin-top:16px;display:inline-flex">QUERO APLICAR NO MEU RESTAURANTE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-title">
+        <div class="eyebrow">Dúvidas frequentes</div>
+        <h2>Antes de acessar</h2>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>Funciona para o meu tipo de negócio de comida?</summary>
+          <p>Sim. O kit foi pensado para restaurantes, deliverys, lanchonetes, pizzarias, hamburguerias, cafeterias, docerias, marmitarias, bares, padarias e outros negócios gastronômicos. Você adapta os textos ao seu cardápio e à sua cidade.</p>
+        </details>
+        <details>
+          <summary>Em quanto tempo consigo usar?</summary>
+          <p>Logo após a confirmação da compra. O material é digital e pode ser acessado pelo celular, tablet ou computador. Você já pode escolher uma ideia, adaptar e publicar no mesmo dia.</p>
+        </details>
+        <details>
+          <summary>Preciso aparecer nos vídeos ou entender de design?</summary>
+          <p>Não. O kit inclui ideias de Reels sem precisar aparecer, chamadas para Stories, textos prontos e skills para direcionar imagens e artes. Você pode usar com Canva, editor simples ou sua ferramenta visual preferida.</p>
+        </details>
+        <details>
+          <summary>Como vou receber o material?</summary>
+          <p>Você recebe acesso digital após a confirmação da compra. Não há envio físico, frete ou mensalidade. Basta abrir, copiar, adaptar e aplicar.</p>
+        </details>
+        <details>
+          <summary>E se eu comprar e não gostar?</summary>
+          <p>Você tem 15 dias de garantia total. Se o material não fizer sentido para você, basta entrar em contato pelo e-mail certoprotocolo@gmail.com dentro do prazo da garantia.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta-final">
+    <div class="wrap">
+      <div class="final-cta">
+        <div class="eyebrow">Decisão final</div>
+        <h2>Hoje você pode continuar improvisando ou abrir um kit pronto para vender com mais presença.</h2>
+        <p>Leve calendário, legendas, frases, skills visuais, mensagens de WhatsApp, promoções, combos, CTAs, checklists e campanhas para transformar sua rotina de conteúdo.</p>
+        <div class="final-checklist">
+          <div>✓ Calendário 30 dias de conteúdo</div>
+          <div>✓ 100 Legendas e frases prontas</div>
+          <div>✓ Mensagens WhatsApp e pós-venda</div>
+          <div>✓ Promoções, combos e CTAs</div>
+          <div>✓ Skills de texto e imagem</div>
+          <div>✓ Garantia de 15 dias sem burocracia</div>
+        </div>
+        <div class="final-price-display">
+          <del>R$ 272,00</del>
+          <strong>R$ 29,90</strong>
+          <small>acesso antecipado · oferta de validação</small>
+        </div>
+        <a class="btn btn-gold final-btn" href="https://ggcheckout.app/checkout/v3/qTf2sgLjr9EfGuVsvWH6">QUERO GARANTIR MEU KIT COMPLETO AGORA — R$29,90 🔒</a>
+        <p style="color:rgba(255,255,255,.55);font-size:13px;font-weight:800;margin-top:12px">Sem mensalidade · Acesso imediato · Garantia de 15 dias</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p>Este site não é afiliado ao Facebook™, Instagram™, Google™, WhatsApp™, YouTube™ ou qualquer plataforma mencionada.</p>
+      <p>A compra deste material não garante resultados específicos. O resultado depende da aplicação, constância, oferta, atendimento, público e contexto de cada negócio.</p>
+      <p>Contato: <a href="mailto:certoprotocolo@gmail.com">certoprotocolo@gmail.com</a></p>
+      <p>Copyright © <span id="year"></span> | Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const proofMessages = [
+      'Acesso digital liberado após a confirmação da compra ✓',
+      'Use no Instagram, Stories, Reels e WhatsApp ✓',
+      'Sem mensalidade: compra única e acesso imediato ✓',
+      'Garantia simples de 15 dias por e-mail ✓',
+      'Material feito para restaurantes, deliverys e negócios de comida ✓',
+    ];
+    let proofIndex = 0;
+    setInterval(() => {
+      proofIndex = (proofIndex + 1) % proofMessages.length;
+      const proofText = document.getElementById('proofText');
+      if (proofText) proofText.textContent = proofMessages[proofIndex];
+    }, 4500);
+  </script>
+</body>
+</html>
