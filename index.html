@@ -370,7 +370,7 @@
     .offer-strip h2,.final-cta h2{color:#fff;margin-bottom:12px}
     .offer-strip p,.final-cta p{color:rgba(255,255,255,.72);font-weight:650;margin-bottom:16px}
     .bonus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
-    .bonus-grid .bonus-card:last-child:nth-child(3n+1){grid-column:2}
+    .bonus-grid .bonus-card:last-child{grid-column:2}
     .bonus-card{padding:20px;background:rgba(255,255,255,.82)}
     .bonus-card>*{position:relative;z-index:1}
     .bonus-card b{display:inline-flex;color:#fff;background:linear-gradient(90deg,var(--red),var(--red2));border-radius:999px;padding:6px 10px;margin-bottom:12px;font-family:'JetBrains Mono',monospace;font-size:12px}
@@ -386,8 +386,9 @@
       font-size:clamp(16px,2.6vw,24px);
       letter-spacing:.01em;
     }
-    .pricing{display:grid;grid-template-columns:420px 450px;gap:24px;align-items:start;margin-top:28px;width:fit-content;margin-left:auto;margin-right:auto}
-    .pricing>article.price-card{align-self:start;margin-top:69px}
+    .pricing{display:grid;grid-template-columns:1fr 1.08fr;gap:24px;align-items:start;margin-top:52px}
+    .pricing > div{position:relative}
+    .pricing > div .between-plans{position:absolute;top:-34px;left:0;right:0;margin:0}
     .price-card{padding:30px;background:rgba(255,255,255,.86)}
     .price-card>*{position:relative;z-index:1}
     .price-card.recommended{
@@ -445,9 +446,11 @@
       .grid{grid-template-columns:repeat(2,1fr)}
       .steps{grid-template-columns:repeat(2,1fr)}
       .bonus-grid{grid-template-columns:repeat(2,1fr)}
-      .pricing,.grid-2{grid-template-columns:1fr;width:100%}
+      .bonus-grid .bonus-card:last-child{grid-column:auto}
+      .pricing,.grid-2{grid-template-columns:1fr}
       .proof-grid{grid-template-columns:repeat(2,1fr)}
       .price-card.recommended{transform:none}
+      .pricing > div .between-plans{position:static;margin:18px 0 10px}
     }
     @media(max-width:620px){
       section{padding:44px 0}
@@ -468,6 +471,7 @@
 </head>
 <body>
 <a class="topbar" href="#planos">⚡ <b>VÁLIDO ATÉ <span class="data-oferta">--/--/----</span></b></a>
+<a class="mobile-sticky" href="#planos">ACESSAR AGORA 🔒</a>
 <header class="hero">
 <div class="wrap">
 <h1>30 Dias de Conteúdo + 100 Frases Prontas Para Restaurantes Postarem Sem Começar do Zero</h1>
@@ -517,7 +521,7 @@
 
 
 <article class="card">
-<img alt="Capa Mensagens Prontas para WhatsApp" loading="lazy" src="https://i.postimg.cc/1RWvB3Wv/1.png"/>
+<img src="https://i.postimg.cc/1RWvB3Wv/1.png" alt="Capa Mensagens Prontas WhatsApp" loading="lazy">
 <span class="label">WhatsApp</span>
 <h3>Mensagens Prontas WhatsApp</h3>
 <p>Mensagens para atendimento, pedidos, delivery, pós-venda, retorno e recompra.</p>
@@ -529,19 +533,19 @@
 <p>Direção para aplicar textos em peças visuais com hierarquia, contraste e CTA claro.</p>
 </article>
 <article class="card">
-<img alt="Capa Criador de Conteúdo" loading="lazy" src="https://i.postimg.cc/s2cHzN1g/2.png"/>
+<img src="https://i.postimg.cc/66HMcpHY/2.png" alt="Capa Criador de Conteúdo" loading="lazy">
 <span class="label">Conteúdo</span>
 <h3>Criador de Conteúdo</h3>
 <p>Skill para gerar temas, tópicos, subtópicos e resumos para design de conteúdo gastronômico.</p>
 </article>
 <article class="card">
-<img alt="Capa Skill Atendimento WhatsApp" loading="lazy" src="https://i.postimg.cc/zfj2Nc3D/3.png"/>
+<img src="https://i.postimg.cc/L4yxD8yD/3.png" alt="Capa Skill Atendimento WhatsApp" loading="lazy">
 <span class="label">Atendimento</span>
 <h3>Skill Atendimento WhatsApp</h3>
 <p>Material para melhorar abordagem, condução de conversa e conversão no atendimento.</p>
 </article>
 <article class="card">
-<img alt="Capa Kit Bônus" loading="lazy" src="https://i.postimg.cc/Xv81WzXy/6.png"/>
+<img src="https://i.postimg.cc/NGNdDjJw/6.png" alt="Capa Kit Bônus" loading="lazy">
 <span class="label">Bônus</span>
 <h3>Kit Bônus</h3>
 <p>Pacote extra com materiais complementares para promoções, campanhas, checklist e rotina de vendas.</p>
@@ -574,20 +578,20 @@
 <h3>Escolha uma ideia</h3>
 <p>Você acessa o material e escolhe uma ideia do calendário de conteúdo.</p>
 </article>
-<article class="card"><img alt="PASSO 2" loading="lazy" src="https://i.postimg.cc/L6nNbFwK/8.png"/>
-
+<article class="card">
+<img src="https://i.postimg.cc/L6nNbFwK/8.png" alt="PASSO 2" loading="lazy">
 <span class="step-number">PASSO 2</span>
 <h3>Copie o texto</h3>
 <p>Use uma legenda, frase, CTA ou mensagem pronta de acordo com sua necessidade.</p>
 </article>
-<article class="card"><img alt="PASSO 3" loading="lazy" src="https://i.postimg.cc/VLdDVPpd/Chat-GPT-Image-28-de-mai-de-2026-21-05-269.png"/>
-
+<article class="card">
+<img src="https://i.postimg.cc/VLdDVPpd/Chat-GPT-Image-28-de-mai-de-2026-21-05-269.png" alt="PASSO 3" loading="lazy">
 <span class="step-number">PASSO 3</span>
 <h3>Adapte ao seu cardápio</h3>
 <p>Troque pelo nome do prato, combo, promoção, cidade ou restaurante.</p>
 </article>
-<article class="card"><img alt="PASSO 4" loading="lazy" src="https://i.postimg.cc/L6nNbFwK/8.png"/>
-
+<article class="card">
+<img src="https://i.postimg.cc/WzfS15Fb/4.png" alt="PASSO 4" loading="lazy">
 <span class="step-number">PASSO 4</span>
 <h3>Publique e divulgue</h3>
 <p>Poste no Instagram, Stories ou WhatsApp e use a chamada para incentivar pedidos.</p>
@@ -711,15 +715,13 @@
 </section>
 <section class="soft-band" id="garantia">
 <div class="wrap">
-<div class="guarantee" style="display:flex;align-items:center;gap:32px;text-align:left;">
-<img alt="Garantia de 15 Dias" src="https://i.postimg.cc/zvWFqbRk/10.png" style="width:180px;height:180px;object-fit:contain;flex-shrink:0;"/>
-<div>
-<h2 style="text-align:left;margin-bottom:10px;">Garantia de 15 Dias</h2>
+<div class="guarantee">
+<img src="https://i.postimg.cc/jqfn9vKT/garantia-conacop-15-dias-1-768x767.png" alt="Garantia de 15 Dias" loading="lazy" style="float:left;width:min(260px,38%);margin:0 28px 16px 0;border-radius:22px;">
+<h2>Garantia de 15 Dias</h2>
 <p>Essa garantia existe porque acreditamos no valor prático do material.</p>
 <p>Você não está comprando uma promessa abstrata.</p>
 <p>Está recebendo conteúdos, frases, mensagens, skills e materiais prontos, organizados e pensados para aplicar na divulgação do seu restaurante.</p>
 <p><strong>Se o material não fizer sentido para você, o risco fica totalmente do nosso lado.</strong></p>
-</div>
 </div>
 </div>
 </section>
